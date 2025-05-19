@@ -79,3 +79,20 @@ let pattern = /hello/i;
 console.log("pattern:", pattern, "| typeof:", typeof pattern);  // object
 
 
+//********************************************************* */
+// stack (primitive)// we get the copy     ,heap(non primitive)// its by as the reference
+
+let myName  =  "Dungar Soni"
+let anotherName =  myName;
+
+anotherName = "krishna"
+console.log(myName)
+console.log(anotherName);
+
+
+let useOne  = {
+    name: "Dungar Soni",
+    email: "dunagr@gmail.com"
+}
+let useTwo  =  useOne;
+useTwo.email = "b23es1015@iitj.ac.in";
